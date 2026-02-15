@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { format } from 'date-fns';
-import { ja } from 'date-fns/locale';
 
 interface AgentSession {
   id: string;
